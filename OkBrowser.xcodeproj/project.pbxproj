@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8270E717CD5C9B00463C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8270E617CD5C9B00463C12 /* UIKit.framework */; };
+		5E8270E917CD5C9B00463C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8270E817CD5C9B00463C12 /* Foundation.framework */; };
+		5E8270EB17CD5C9B00463C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8270EA17CD5C9B00463C12 /* CoreGraphics.framework */; };
+		5E8270F117CD5C9B00463C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8270EF17CD5C9B00463C12 /* InfoPlist.strings */; };
+		5E8270F317CD5C9B00463C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8270F217CD5C9B00463C12 /* main.m */; };
+		5E8270F717CD5C9B00463C12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8270F617CD5C9B00463C12 /* AppDelegate.m */; };
+		5E8270F917CD5C9B00463C12 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8270F817CD5C9B00463C12 /* Default.png */; };
+		5E8270FB17CD5C9B00463C12 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8270FA17CD5C9B00463C12 /* Default@2x.png */; };
+		5E8270FD17CD5C9B00463C12 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8270FC17CD5C9B00463C12 /* Default-568h@2x.png */; };
+		5E82710017CD5C9B00463C12 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8270FF17CD5C9B00463C12 /* MainViewController.m */; };
+		5E82710317CD5C9B00463C12 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E82710217CD5C9B00463C12 /* FlipsideViewController.m */; };
+		5E82710617CD5C9B00463C12 /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E82710417CD5C9B00463C12 /* MainViewController_iPhone.xib */; };
+		5E82710917CD5C9B00463C12 /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E82710717CD5C9B00463C12 /* MainViewController_iPad.xib */; };
+		5E82710C17CD5C9B00463C12 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E82710A17CD5C9B00463C12 /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E8270E317CD5C9B00463C12 /* OkBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OkBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8270E617CD5C9B00463C12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E8270E817CD5C9B00463C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E8270EA17CD5C9B00463C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E8270EE17CD5C9B00463C12 /* OkBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OkBrowser-Info.plist"; sourceTree = "<group>"; };
+		5E8270F017CD5C9B00463C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E8270F217CD5C9B00463C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8270F417CD5C9B00463C12 /* OkBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OkBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		5E8270F517CD5C9B00463C12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E8270F617CD5C9B00463C12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E8270F817CD5C9B00463C12 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E8270FA17CD5C9B00463C12 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E8270FC17CD5C9B00463C12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E8270FE17CD5C9B00463C12 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5E8270FF17CD5C9B00463C12 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5E82710117CD5C9B00463C12 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		5E82710217CD5C9B00463C12 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		5E82710517CD5C9B00463C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		5E82710817CD5C9B00463C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPad.xib; sourceTree = "<group>"; };
+		5E82710B17CD5C9B00463C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8270E017CD5C9B00463C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8270E717CD5C9B00463C12 /* UIKit.framework in Frameworks */,
+				5E8270E917CD5C9B00463C12 /* Foundation.framework in Frameworks */,
+				5E8270EB17CD5C9B00463C12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E8270DA17CD5C9B00463C12 = {
+			isa = PBXGroup;
+			children = (
+				5E8270EC17CD5C9B00463C12 /* OkBrowser */,
+				5E8270E517CD5C9B00463C12 /* Frameworks */,
+				5E8270E417CD5C9B00463C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E8270E417CD5C9B00463C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8270E317CD5C9B00463C12 /* OkBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8270E517CD5C9B00463C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8270E617CD5C9B00463C12 /* UIKit.framework */,
+				5E8270E817CD5C9B00463C12 /* Foundation.framework */,
+				5E8270EA17CD5C9B00463C12 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8270EC17CD5C9B00463C12 /* OkBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				5E8270F517CD5C9B00463C12 /* AppDelegate.h */,
+				5E8270F617CD5C9B00463C12 /* AppDelegate.m */,
+				5E8270FE17CD5C9B00463C12 /* MainViewController.h */,
+				5E8270FF17CD5C9B00463C12 /* MainViewController.m */,
+				5E82710117CD5C9B00463C12 /* FlipsideViewController.h */,
+				5E82710217CD5C9B00463C12 /* FlipsideViewController.m */,
+				5E82710417CD5C9B00463C12 /* MainViewController_iPhone.xib */,
+				5E82710717CD5C9B00463C12 /* MainViewController_iPad.xib */,
+				5E82710A17CD5C9B00463C12 /* FlipsideViewController.xib */,
+				5E8270ED17CD5C9B00463C12 /* Supporting Files */,
+			);
+			path = OkBrowser;
+			sourceTree = "<group>";
+		};
+		5E8270ED17CD5C9B00463C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E8270EE17CD5C9B00463C12 /* OkBrowser-Info.plist */,
+				5E8270EF17CD5C9B00463C12 /* InfoPlist.strings */,
+				5E8270F217CD5C9B00463C12 /* main.m */,
+				5E8270F417CD5C9B00463C12 /* OkBrowser-Prefix.pch */,
+				5E8270F817CD5C9B00463C12 /* Default.png */,
+				5E8270FA17CD5C9B00463C12 /* Default@2x.png */,
+				5E8270FC17CD5C9B00463C12 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E8270E217CD5C9B00463C12 /* OkBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E82710F17CD5C9B00463C12 /* Build configuration list for PBXNativeTarget "OkBrowser" */;
+			buildPhases = (
+				5E8270DF17CD5C9B00463C12 /* Sources */,
+				5E8270E017CD5C9B00463C12 /* Frameworks */,
+				5E8270E117CD5C9B00463C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OkBrowser;
+			productName = OkBrowser;
+			productReference = 5E8270E317CD5C9B00463C12 /* OkBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8270DB17CD5C9B00463C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jack Le Hamster";
+			};
+			buildConfigurationList = 5E8270DE17CD5C9B00463C12 /* Build configuration list for PBXProject "OkBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E8270DA17CD5C9B00463C12;
+			productRefGroup = 5E8270E417CD5C9B00463C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E8270E217CD5C9B00463C12 /* OkBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8270E117CD5C9B00463C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8270F117CD5C9B00463C12 /* InfoPlist.strings in Resources */,
+				5E8270F917CD5C9B00463C12 /* Default.png in Resources */,
+				5E8270FB17CD5C9B00463C12 /* Default@2x.png in Resources */,
+				5E8270FD17CD5C9B00463C12 /* Default-568h@2x.png in Resources */,
+				5E82710617CD5C9B00463C12 /* MainViewController_iPhone.xib in Resources */,
+				5E82710917CD5C9B00463C12 /* MainViewController_iPad.xib in Resources */,
+				5E82710C17CD5C9B00463C12 /* FlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8270DF17CD5C9B00463C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8270F317CD5C9B00463C12 /* main.m in Sources */,
+				5E8270F717CD5C9B00463C12 /* AppDelegate.m in Sources */,
+				5E82710017CD5C9B00463C12 /* MainViewController.m in Sources */,
+				5E82710317CD5C9B00463C12 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E8270EF17CD5C9B00463C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8270F017CD5C9B00463C12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E82710417CD5C9B00463C12 /* MainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E82710517CD5C9B00463C12 /* en */,
+			);
+			name = MainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5E82710717CD5C9B00463C12 /* MainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E82710817CD5C9B00463C12 /* en */,
+			);
+			name = MainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		5E82710A17CD5C9B00463C12 /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E82710B17CD5C9B00463C12 /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E82710D17CD5C9B00463C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E82710E17CD5C9B00463C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E82711017CD5C9B00463C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OkBrowser/OkBrowser-Prefix.pch";
+				INFOPLIST_FILE = "OkBrowser/OkBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E82711117CD5C9B00463C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OkBrowser/OkBrowser-Prefix.pch";
+				INFOPLIST_FILE = "OkBrowser/OkBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8270DE17CD5C9B00463C12 /* Build configuration list for PBXProject "OkBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E82710D17CD5C9B00463C12 /* Debug */,
+				5E82710E17CD5C9B00463C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E82710F17CD5C9B00463C12 /* Build configuration list for PBXNativeTarget "OkBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E82711017CD5C9B00463C12 /* Debug */,
+				5E82711117CD5C9B00463C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E8270DB17CD5C9B00463C12 /* Project object */;
+}
