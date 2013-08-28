@@ -8,7 +8,9 @@
 
 #import "FlipsideViewController.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+    IBOutlet UIWebView *webView;
+}
 
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
